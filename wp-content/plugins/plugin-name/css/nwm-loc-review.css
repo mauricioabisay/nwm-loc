@@ -1,0 +1,204 @@
+article .entry-content .nav li:before{
+	background-color: transparent;
+}
+/*Clases para las listas de cervezas*/
+.nwm-beerlist-table-container {
+	
+}
+.nwm-beerlist-table-info *{
+	border-style: none !important;
+}
+
+.nwm-beerlist-image-panel {
+	text-align: center;
+}
+.nwm-beerlist-photo {
+	
+}
+.nwm-beerlist-favorite-quick {
+	position: relative;
+	top: 0.5em;
+	right: 0em;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #0c2b95;
+    border-radius: 50px;
+}
+.nwm-beerlist-for-later-quick {
+    position: relative;
+    top: 2em;
+    right: 0em;
+    text-align: center;
+    vertical-align: middle;
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    /* background-color: #0c2b95; */
+    border-radius: 50px;
+    border: #efeee1;
+    border-width: 2px;
+    border-style: solid !important;
+}
+.nwm-beerlist-user-rating {
+	text-align: center;
+}
+.nwm-rating-radio {
+	text-align: center;
+}
+.nwm-beerlist-beer-info {
+	background-color: #EFEEE1;
+}
+.nwm-beerlist-beer-info-title {
+
+}
+.nwm-beerlist-rating-row * {
+	/*border-bottom: 1px solid #000 !important;*/
+}
+.nwm-beerlist-row-separator {
+	background-color:#000;
+	width:100%;
+	height: 2px
+}
+.nwm-beerlist-beer-info h3{
+	color: #3b6eff;
+}
+
+.nwm-beerlist-maestre-rating {
+	white-space: nowrap;
+}
+.nwm-beerlist-community-rating {
+	white-space: nowrap;
+}
+/*Clases para la ficha de cada cerveza y su review*/
+.nwm-beer-info-photo {
+
+}
+.nwm-beer-info-data {
+	background-color: #EFEEE1;
+}
+.nwm-beer-review {
+	background-color: #3b6eff;
+}
+.nwm-beer-review-title {
+
+}
+.nwm-beer_review-subtitle {
+	text-align: right;
+}
+/*Rating hecho por Carlitos*/
+body{
+background-color: #0e162a ;
+}
+
+label {
+	display: inline-block;
+    color:rgba(0,0,0,0);
+	cursor: pointer;
+	position: relative;
+	margin-right: 15px;
+	font-size: 0px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+	display: none;
+}
+
+label:before {
+	content: "";
+	display: inline-block;
+    font-size: 0px;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+}
+
+.nwm-rating-radio label:before {
+	border-radius: 8px;
+}
+
+.nwm-beerlist-maestre-rating label:before {
+	border-radius: 8px;
+}
+
+.nwm-beerlist-community-rating label:before {
+	border-radius: 8px;
+}
+
+input[type=radio] + label:before {
+    background-color: rgba(239,238,225,.26);
+    -webkit-transition:background-color 1s linear, font-size 0.4s ease;
+  	-o-transition:background-color 1s linear, font-size 0.4s ease;
+  	-moz-transition:background-color 1s linear, font-size 0.4s ease;
+  	transition:background-color 1s linear, font-size 0.4s ease;
+}
+
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #f3f3f3;
+    font-size: 15px;
+    text-align: center;
+    line-height: 18px;
+    background-color: rgba(12,43,149,1);
+    -webkit-transition:background-color 1s linear, font-size 0.4s ease;
+  	-o-transition:background-color 1s linear, font-size 0.4s ease;
+  	-moz-transition:background-color 1s linear, font-size 0.4s ease;
+  	transition:background-color 1s linear, font-size 0.4s ease;
+}
+
+/*Efecto hover para botones hecho por Carlitos*/
+@-webkit-keyframes pulse { 
+    0% { -webkit-transform: scale(1); } 
+    25% { -webkit-transform: scale(1.1); } 
+    100% { -webkit-transform: scale(1); } 
+} 
+
+@keyframes pulse { 
+    0% { transform: scale(1); } 
+    25% { transform: scale(1.1); } 
+    100% { transform: scale(1); } 
+} 
+
+.pulse:hover { 
+    -webkit-animation-name: pulse; 
+    animation-name: pulse; 
+    
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+}
+
+@-webkit-keyframes tada { 
+    0% {-webkit-transform: scale(1);} 
+    10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);} 
+    30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);} 
+    40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);} 
+    100% {-webkit-transform: scale(1) rotate(0);} 
+} 
+
+@keyframes tada { 
+     0% {-webkit-transform: scale(1);} 
+    10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);} 
+    30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);} 
+    40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);} 
+    100% {-webkit-transform: scale(1) rotate(0);} 
+} 
+
+.tada:hover { 
+    -webkit-animation-name: tada; 
+    animation-name: tada; 
+    
+     -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}

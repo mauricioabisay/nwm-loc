@@ -1,0 +1,1548 @@
+    .h1 a,
+    .h2 a,
+    .h3 a,
+    .h4 a,
+    .h5 a,
+    .h6 a,
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        font-size: 60%;
+        letter-spacing: 4px;
+        line-height: 16px !important;
+    }
+
+    .h1 a,
+    .h3 a,
+    .h4 a,
+    .h5 a,
+    .h6 a,
+    h1 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a,
+    h1,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #efeee1 !important;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        background-color: #0e162a !important;
+        color: #efeee1;
+    }
+
+    .owl-item {
+        visibility: hidden;
+        display: none;
+        width: inherit !important;
+    }
+
+    .owl-item.active.center {
+        visibility: visible;
+        display: block;
+        width: inherit !important;
+    }
+
+    .wpb_raw_code .wpb_content_element .wpb_raw_html {
+        background-color: #0e162a;
+    }
+
+    #content {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .site-title {
+        position: relative;
+    }
+
+    .mobile-menu-button {
+        display: inline;
+        line-height: 39px;
+        float: left;
+    }
+
+    .mobile-menu-button span {
+        color: #0e162a;
+        position: absolute;
+        top: 54px;
+    }
+
+    .primary-navigation {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        visibility: visible;
+    }
+
+    .site-title {
+        position: relative;
+    }
+    /*escondi el menu*/
+
+    .mobile-menu {
+        display: block !important;
+        background-color: #efeee1 !important;
+        color: #0e162a !important;
+    }
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    nav.mobile-menu ul.nav-menu,
+    nav.mobile-menu ul.sub-menu {
+        /*Esto es el padding para ajustas las lineas del menu
+    padding-left: 30%;
+    padding-right:30%;*/
+    }
+
+    nav.mobile-menu ul.nav-menu li.menu-item a.menu-link,
+    nav.mobile-menu ul.nav-menu li.menu-item h4,
+    nav.mobile-menu ul.sub-menu li.menu-item a.menu-link,
+    nav.mobile-menu ul.sub-menu li.menu-item h4 {
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        color: #0e162a !important;
+    }
+
+    .site-header .header-main {
+        background-color: #efeee1 !important;
+        color: #0e162a;
+    }
+
+    .site-title {
+        visibility: visible;
+    }
+
+    .site-header.scrolled .fa {
+        top: -31px;
+        position: relative;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .nwm-title-img-container {
+        position: relative;
+        left: 50%;
+        padding: 12px;
+        top: -7px;
+        overflow: hidden;
+        margin-left: calc(-1*(109px/2));
+        width: 109px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        padding: 12px;
+        top: -10px;
+        overflow: hidden;
+        margin-left: calc(-1*(109px/2));
+        max-height: 65px;
+        width: 109px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    article .entry-thumbnail .image {
+        overflow: hidden;
+    }
+    /*
+.nwm-title-img-container{
+    position: relative;
+    left: 50%;
+    padding: 12px;
+    top: -7px;
+    overflow: hidden;
+   margin-left: calc(-1*(109px/2));
+
+    width: 109px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}*/
+
+    .categories-links a {
+        background-color: #1414ed !important;
+    }
+
+    .fa {
+        top: -30px;
+        position: absolute;
+    }
+
+    .site-header.scrolled .fa {
+        top: -31px;
+        position: relative;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .site-header.scrolled .nwm-title-img-container {
+        padding: 12px;
+        top: -10px;
+        overflow: hidden;
+        margin-left: calc(-1*(109px/2));
+        max-height: 65px;
+        width: 109px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .nwm-title-img-container img {
+        width: 100%;
+    }
+
+    .nwm-carousel-item-categories-list a {
+        color: #fff;
+        display: inline-block;
+        padding: 0px !important;
+        padding-bottom: 10px !important;
+        background-color: transparent !important;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: .7em;
+    }
+
+    .site-header.scrolled .mobile-menu-button span {
+        top: 27px;
+    }
+
+    #secondary {
+        background-color: #0e162a;
+        padding: 0;
+        color: #999;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .nwm-carousel-item-data {
+        text-align: left;
+    }
+
+    @media screen and (min-width: 800px) {
+        .carousel-post .entry-thumbnail .image {
+            background-color: #0c2b95;
+            background-image: none !important;
+            height: calc((100vh)-(156px)) !important;
+        }
+        .fa {
+            top: -30px;
+            position: relative;
+        }
+        .nwm-title-img-container {
+            position: relative;
+            left: 50%;
+            margin-left: calc(-75.5px);
+            width: 151px;
+            padding: 20px;
+            transition: all 0.3s;
+            max-height: 122px !important;
+        }
+        .site-header.scrolled .nwm-title-img-container {
+            padding: 12px !important;
+            top: -10px !important;
+            overflow: hidden !important;
+            margin-left: calc(-1*(109px/2)) !important;
+            max-height: 65px !important;
+            width: 109px !important;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+        .nwm-title-img-container img {
+            width: 100%;
+        }
+        .nwm-carousel {
+            border-right: #efeee1 solid 20px;
+            border-left: #efeee1 solid 20px;
+            border-bottom: #efeee1 solid 20px;
+        }
+        .carousel-post .entry-data {
+            width: 45% !important;
+            left: 50% !important;
+            top: 50% !important;
+            margin-top: -50px;
+            -webkit-background-composite: clear !important;
+            background: transparent !important;
+            background-color: transparent !important;
+        }
+        .prev-post span,
+        .next-post span {
+            color: #efeee1 !important;
+        }
+        .carousel-post .entry-data::before {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.0) 0, rgba(0, 0, 0, 0) 100%) !important;
+            height: 100px;
+        }
+        #div_carlitos {
+            left: 20% !important;
+        }
+        /*
+.carousel-post .entry-thumbnail .image{
+
+    background-color:#0c2b95;
+    background-image:none !important;
+
+    height: calc((100vh)-(156px)) !important;
+
+}
+
+.nwm-carousel-item-bg-container{
+
+    height: calc((100vh)-(156px)) !important;
+
+}
+
+*/
+    }
+
+    .carousel-post .entry-thumbnail .image {
+        background-color: #0c2b95;
+        background-image: none !important;
+        height: calc(80vh);
+    }
+
+    .entry-title a {
+        color: #efeee1 !important;
+    }
+
+    .carousel-post .entry-thumbnail .image img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: multiply;
+    }
+
+    .masonry-post .entry-thumbnail .image {
+        height: auto!important;
+    }
+
+    .row .wpb_column {
+        padding: 0;
+    }
+
+    .wpb_row {
+        margin-bottom: 0;
+    }
+
+    #middle {
+        margin-top: 0px;
+    }
+    /*iconos sobre fotos*/
+
+    .carousel-post .category-cronicascerveceras {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        float: left;
+        z-index: 10000000;
+        top: 30%;
+        left: 25%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: none;
+    }
+    /********************************************************PLATAFORMA REVIEWS******************************************************/
+
+    a.ui-link {
+        display: block;
+        margin-left: 4vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #1414ed !important;
+    }
+
+    .modal-content {
+        border-radius: 0px !important;
+        border: none;
+        background-color: #efeee1;
+    }
+
+    .nwm-beerlist-header {
+        padding-top: 20px !important;
+    }
+
+    .nwm-beerlist-header-img {
+        width: 67px;
+    }
+
+    .nav,
+    .nav-tabs,
+    .nav-justified {
+        background-color: #0c2b95;
+        font-size: 64%;
+        text-transform: uppercase;
+        color: #efeee1 !important;
+        font-family: 'Libre Baskerville', serif !important;
+        letter-spacing: 11px;
+        border-bottom: 0px;
+        margin-top: 0px !important;
+        height: 60px;
+        padding-top: 16px !important;
+    }
+
+    .nav-tabs>li>a:hover,
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        background-color: #0c2b95 !important;
+        border: none;
+        color: #efeee1 !important;
+    }
+
+    .dropdown-menu>li>a:focus,
+    .dropdown-menu>li>a:hover {
+        background-color: #0c2b95 !important;
+        background-image: none !important;
+        color: #efeee1 !important;
+    }
+
+    .nav-tabs.nav-justified a,
+    .nav-tabs.nav-justified>li>a {
+        border: none !important;
+        color: #0e162a;
+        -webkit-transition: color .3s;
+        /* Safari */
+        transition: color .3s;
+    }
+
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover,
+    .nav .active a,
+    .nav-tabs.nav-justified>.active>a {
+        background-color: #0c2b95 !important;
+        color: #efeee1 !important;
+        border: none !important;
+        -webkit-transition: color .3s;
+        /* Safari */
+        transition: color .3s;
+    }
+
+    .nav-tabs.nav-justified>.active>a,
+    .nav-tabs.nav-justified>.active>a:focus,
+    .nav-tabs.nav-justified>.active>a:hover {
+        border: none;
+    }
+
+    .nav-tabs.nav-justified>.dropdown .dropdown-menu,
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+        top: auto;
+        left: auto;
+        font-size: 100%;
+        background-color: #0c2b95;
+        width: 100%;
+        background-image: none !important;
+        border-radius: 0px !important;
+        box-shadow: none;
+        border: none;
+    }
+
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+        background-color: #0c2b95;
+        color: #efeee1;
+        background-image: none !important;
+    }
+
+    .nwm-hielera-title {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+    }
+
+    article .entry-content .nav li:before {
+        background-color: transparent;
+    }
+
+    .nwm-beerlist-image-panel {
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .nwm-beerlist-photo {
+        position: relative;
+    }
+
+    img.pulse::before {
+        content: "hola";
+        color: red;
+    }
+
+    .nwm-beerlist-favorite-quick.active {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        background-color: #0c2b95;
+        border-radius: 25px;
+        top: 5%;
+        transition: background-color .3s;
+    }
+
+    .nwm-beerlist-favorite-quick.inactive::before {
+        content: "Favoritos";
+        position: absolute;
+        text-align: right;
+        right: 50px;
+        top: 17px;
+        opacity: 0;
+        letter-spacing: -6px;
+        transition: all .3s;
+    }
+
+    .nwm-beerlist-favorite-quick.inactive:hover::before {
+        content: "Favoritos";
+        position: absolute;
+        opacity: 1;
+        transition: all .3s;
+        letter-spacing: inherit;
+    }
+
+    .nwm-beerlist-favorite-quick.inactive {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: visible;
+        background-color: transparent;
+        border-radius: 25px;
+        top: 5%;
+        border: #efeee1;
+        border-width: 2px;
+        border-style: solid !important;
+        transition: background-color .3s;
+    }
+
+    .nwm-beerlist-for-later-quick.active {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        background-color: #0c2b95;
+        border-radius: 25px;
+        top: 85px;
+        border: none !important;
+        transition: background-color .3s;
+    }
+
+    .nwm-beerlist-for-later-quick.inactive {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: visible;
+        /* background-color: #0c2b95; */
+        border-radius: 25px;
+        top: 85px;
+        border: white;
+        border-width: 2px;
+        border-style: solid !important;
+        transition: background-color .3s;
+    }
+
+    .nwm-beerlist-for-later-quick.inactive::before {
+        content: "Por Calificar";
+        position: absolute;
+        text-align: right;
+        right: 50px;
+        top: 14px;
+        opacity: 0;
+        letter-spacing: -6px;
+        transition: all .3s;
+    }
+
+    #wp-admin-bar-top-secondary a {
+        color: #efeee1 !important;
+    }
+
+    .nwm-beerlist-for-later-quick.inactive:hover::before {
+        content: "Por Calificar";
+        position: absolute;
+        opacity: 1;
+        transition: all .3s;
+        letter-spacing: inherit;
+    }
+
+    .nwm-beerlist-user-rating {
+        position: relative;
+        width: 0px;
+        height: 0px;
+        padding: 0px !important;
+    }
+
+    .nwm-rating-radio {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: -40px;
+    }
+
+    .table .table {
+        background-color: #fff;
+        color: #0e126a !important;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+    }
+
+    .table {
+        border-collapse: collapse !important;
+        border: none !important
+    }
+
+    .table-responsive {
+        border: none !important;
+    }
+
+    td {
+        border: none !important;
+    }
+
+    .nwm-beerlist-table-container {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 3%;
+    }
+
+    .nwm-beerlist-photo {
+        border-style: solid !important;
+        border-color: #02061e;
+        border-width: 1px;
+        -webkit-transition: border-color 500ms ease-out;
+        -moz-transition: border-color 500ms ease-out;
+        -o-transition: border-color 500ms ease-out;
+        transition: border-color 500ms ease-out;
+    }
+
+    .nwm-beerlist-photo:hover {
+        border-style: solid !important;
+        border-color: #0c2b95;
+        border-width: 1px;
+        -webkit-transition: border-color 500ms ease-out;
+        -moz-transition: border-color 500ms ease-out;
+        -o-transition: border-color 500ms ease-out;
+        transition: border-color 500ms ease-out;
+    }
+
+    .nwm-beerlist-beer-info a {
+        color: #0e162a !important;
+    }
+
+    .nwm-beerlist-beer-info {
+        font-size: 88%;
+        text-transform: capitalize;
+        color: #0e162a !important;
+        font-family: 'Libre Baskerville', serif !important;
+        letter-spacing: normal;
+    }
+
+    .nwm-beerlist-beer-info-first td {
+        padding-top: 5% !important;
+    }
+
+    .nwm-beerlist-beer-info-last td {
+        padding-bottom: 5% !important;
+    }
+
+    .nwm-beerlist-beer-info td {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .table .h1 a,
+    .table .h2 a,
+    .table .h3 a,
+    .table .h4 a,
+    .table .h5 a,
+    .table .h6 a,
+    .table h1 a,
+    .table h2 a,
+    .table h3 a,
+    .table h4 a,
+    .table h5 a,
+    .table h6 a,
+    .table h1,
+    .table h2,
+    .table h3,
+    .table h4,
+    .table h5,
+    .table h6 {
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        color: #0e126a !important;
+        font-size: 60%;
+        letter-spacing: 11px;
+        line-height: 14px !important;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    label {
+        display: inline-block;
+        color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+        position: relative;
+        margin-right: 23px;
+        font-size: 0px;
+        letter-spacing: normal;
+    }
+
+    input[type=radio],
+    input[type=checkbox] {
+        display: none;
+    }
+
+    label:before {
+        content: "";
+        display: inline-block;
+        font-size: 0px;
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        margin-right: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+    }
+
+    .nwm-rating-radio label:before {
+        border-radius: 8px;
+    }
+
+    .nwm-beerlist-user-rating input[type=radio] + label:before {
+        background-color: rgba(239, 238, 225, .26);
+        -webkit-transition: background-color 1s linear, font-size 0.4s ease;
+        -o-transition: background-color 1s linear, font-size 0.4s ease;
+        -moz-transition: background-color 1s linear, font-size 0.4s ease;
+        transition: background-color 1s linear, font-size 0.4s ease;
+    }
+
+    input[type=radio] + label:before {
+        background-color: #cecdc8;
+        -webkit-transition: background-color 1s linear, font-size 0.4s ease;
+        -o-transition: background-color 1s linear, font-size 0.4s ease;
+        -moz-transition: background-color 1s linear, font-size 0.4s ease;
+        transition: background-color 1s linear, font-size 0.4s ease;
+    }
+
+    .nwm-rating-radio label:before {
+        border-radius: 8px;
+    }
+
+    .nwm-beerlist-user-rating input[type=radio]:checked + label:before {
+        content: "\2022";
+        color: #efeee1;
+        font-size: 15px;
+        text-align: center;
+        line-height: 18px;
+        background-color: rgba(12, 43, 149, 1);
+        -webkit-transition: background-color 1s linear, font-size 0.4s ease;
+        -o-transition: background-color 1s linear, font-size 0.4s ease;
+        -moz-transition: background-color 1s linear, font-size 0.4s ease;
+        transition: background-color 1s linear, font-size 0.4s ease;
+    }
+
+    input[type=radio]:checked + label:before {
+        content: "\2022";
+        color: #efeee1;
+        font-size: 15px;
+        text-align: center;
+        line-height: 18px;
+        background-color: #020249;
+    }
+
+    .nwm-rating-radio-inactive {
+        position: absolute;
+        width: 100%;
+        top: -40px;
+    }
+
+    .nwm-rating-radio-inactive input[type=radio]:checked + label:before {
+        content: "";
+        font-size: 15px;
+        text-align: center;
+        line-height: 18px;
+        background-color: rgba(239, 238, 225, .26);
+    }
+
+    .nwm-beerlist-favorite-quick {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        background-color: #0c2b95;
+        border-radius: 25px;
+        top: 5%;
+    }
+
+    .nwm-beerlist-califica {
+        position: absolute;
+        background-color: rgba(14, 22, 42, 0.6);
+        height: 100%;
+        line-height: 64;
+        width: 100%;
+        letter-spacing: 0px !important;
+        opacity: 0;
+        transition: all .3s;
+        font-size: 1em !important;
+    }
+
+    .nwm-beerlist-photo:hover .nwm-beerlist-califica {
+        position: absolute;
+        background-color: rgba(14, 22, 42, 0.6);
+        height: 100%;
+        line-height: 64;
+        width: 100%;
+        opacity: 1;
+        transition: all .3s;
+        letter-spacing: 4px !important;
+        cursor: pointer;
+        font-size: 1em;
+    }
+
+    .nwm-beerlist-photo .active img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .nwm-beerlist-for-later-quick {
+        right: 5%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        /* background-color: #0c2b95; */
+        border-radius: 25px;
+        top: 100px;
+        border: #efeee1;
+        border-width: 2px;
+        border-style: solid !important;
+    }
+
+    .nwm-beerlist-photo .inactive img {
+        width: 46px !important;
+        height: 46px !important;
+    }
+
+    .nwm-beerlist-beer-info-title {
+        background-color: rgb(239, 238, 225);
+    }
+
+    .nwm-beerlist-row-separator {
+        background-color: #cecdc8;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 5px;
+    }
+
+    .nwm-beerlist-maestre-rating td,
+    .nwm-beerlist-community-rating td {
+        position: relative;
+        bottom: 6px;
+    }
+
+    @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform: scale(1);
+        }
+        25% {
+            -webkit-transform: scale(1.1);
+        }
+        100% {
+            -webkit-transform: scale(1);
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .pulse:hover {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    @-webkit-keyframes tada {
+        0% {
+            -webkit-transform: scale(1);
+        }
+        10%,
+        20% {
+            -webkit-transform: scale(0.9) rotate(-3deg);
+        }
+        30%,
+        50%,
+        70%,
+        90% {
+            -webkit-transform: scale(1.1) rotate(3deg);
+        }
+        40%,
+        60%,
+        80% {
+            -webkit-transform: scale(1.1) rotate(-3deg);
+        }
+        100% {
+            -webkit-transform: scale(1) rotate(0);
+        }
+    }
+
+    @keyframes tada {
+        0% {
+            transform: scale(1);
+        }
+        10%,
+        20% {
+            transform: scale(0.9) rotate(-3deg);
+        }
+        30%,
+        50%,
+        70%,
+        90% {
+            transform: scale(1.1) rotate(3deg);
+        }
+        40%,
+        60%,
+        80% {
+            transform: scale(1.1) rotate(-3deg);
+        }
+        100% {
+            transform: scale(1) rotate(0);
+        }
+    }
+
+    .tada:hover {
+        -webkit-animation-name: tada;
+        animation-name: tada;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .nwm-beer-review-container {
+            width: 100vw;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .nwm-beer-info-photo {
+            width: 100vw !important;
+            display: block !important;
+            height: 40vh;
+            position: static !important;
+            max-width: 100vw !important;
+        }
+        .nwm-beer-info-data {
+            left: 0 !important;
+            top: 40vh !important;
+            width: 50vw !important;
+        }
+        .form-review {
+            left: 50vw !important;
+            width: 50vw !important;
+        }
+        #color_sample {
+            left: 0%;
+            !important
+        }
+    }
+
+    a,
+    button,
+    .myelements {
+        -ms-touch-action: manipulation;
+        /* IE10  */
+        touch-action: manipulation;
+        /* IE11+ */
+    }
+
+    @media screen and (max-width: 700px) {
+        .site-header .header-main {
+            position: fixed !important;
+        }
+        .nwm-beer-info-data {
+            display: block !important;
+            width: 100vw !important;
+            position: relative !important;
+            top: 0 !important;
+        }
+        .form-review {
+            left: 0vw !important;
+            width: 100vw !important;
+        }
+        .form-review {
+            height: auto !important;
+            overflow-y: visible !important;
+        }
+        #color_sample {
+            left: 0%;
+            !important
+        }
+        .nwm-beer-info-data-detail {
+            color: #0c2b95;
+            font-family: 'Libre Baskerville', serif !important;
+            font-weight: 100;
+            bottom: auto !important;
+            position: relative !important;
+            height: 100% !important;
+        }
+    }
+
+    .ui-overlay-a,
+    .ui-page-theme-a,
+    .ui-page-theme-a .ui-panel-wrapper {
+        background-color: #0e162a !important;
+    }
+
+    .nwm-beer-review-container {
+        width: 100vw;
+        display: block;
+        background-color: #0e162a;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        z-index: 1000;
+    }
+
+    .nwm-beer-info-photo,
+    .nwm-beer-info-data,
+    .form-review {
+        width: 31vw;
+        display: inline-block;
+    }
+
+    .nwm-beer-info-photo {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        top: 0;
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: #020521;
+        text-align: center;
+        left: 3em;
+    }
+
+    .nwm-beer-info-data {
+        position: absolute;
+        display: inline-block;
+        left: 35vw;
+        bottom: 0;
+        top: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 12px;
+    }
+
+    .nwm-beer-info-data h1 {
+        margin-bottom: 30px;
+    }
+
+    .nwm-beer-info-data-desc {
+        overflow: auto;
+        overflow-x: hidden;
+        height: calc(100% - 337px);
+    }
+
+    .nwm-beer-info-data-detail {
+        color: #0c2b95;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 100;
+        bottom: 40px;
+        position: absolute;
+        height: 180px;
+    }
+
+    .nwm-beer-info-data-detail p {
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    .nwm-beer-info-data-detail h2 {
+        margin-bottom: 40px;
+    }
+
+    .nwm-beer-review-outer-circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 200px;
+        border: 3px #0c2b95 solid;
+        top: 104px;
+        left: 210px;
+        position: relative;
+    }
+
+    .nwm-beer-review-inner-circle {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+        border: 3px #0c2b95 solid;
+        left: 16px;
+        top: 16px;
+    }
+
+    .form-review {
+        position: relative;
+        left: 62vw;
+        padding: 0;
+        height: 600px;
+        overflow-y: scroll;
+    }
+
+    .nwm-beer_review-tags {
+        color: rgba(239, 238, 225, .19);
+        padding-bottom: 32px;
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    .nwm-beer-review-text-left {
+        text-align: left;
+        width: 33.3%;
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+
+    .nwm-beer-review-text-center {
+        text-align: center;
+        width: 33.3%;
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+
+    .nwm-beer-review-text-right {
+        text-align: right;
+        width: 33.3%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .nwm-beer-info-photo img {
+        object-fit: contain;
+        height: 100%;
+    }
+
+    .nwm-beer_review-subtitle {
+        color: #efeee1;
+    }
+
+    .nwm-beer-review-title {
+        text-align: center;
+        color: #efeee1;
+        letter-spacing: 8px;
+        background: repeating-linear-gradient( to right, #0e162a, #0e162a 1px, #0c2b95 0px, #0c2b95 3px);
+        width: 80%;
+        margin: auto;
+        padding: 23px;
+        margin-top: 32px;
+        margin-bottom: 43px;
+    }
+
+    .nwm-beer-info-data {
+        color: #0e162a;
+    }
+
+    .nwm-beer-info-data .h1 a,
+    .nwm-beer-info-data .h3 a,
+    .nwm-beer-info-data .h4 a,
+    .nwm-beer-info-data .h5 a,
+    .nwm-beer-info-data .h6 a,
+    .nwm-beer-info-data h1 a,
+    .nwm-beer-info-data h3 a,
+    .nwm-beer-info-data h4 a,
+    .nwm-beer-info-data h5 a,
+    .nwm-beer-info-data h6 a,
+    .nwm-beer-info-data h1,
+    .nwm-beer-info-data h3,
+    .nwm-beer-info-data h4,
+    .nwm-beer-info-data h5,
+    .nwm-beer-info-data h6 {
+        color: #0c2b95 !important;
+        font-size: 300%;
+        font-weight: 100;
+        line-height: normal !important;
+        text-transform: capitalize;
+        letter-spacing: 0px;
+    }
+
+    .nwm-beer-info-data .h2 a,
+    .nwm-beer-info-data h2 a .nwm-beer-info-data h2,
+    .nwm-beer-info-data .h2,
+    .nwm-beer-info-data a h2 {
+        font-family: 'Libre Baskerville', serif !important;
+        color: #0c2b95 !important;
+        font-size: 85%;
+        font-weight: 100;
+        line-height: normal !important;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+    }
+
+    .nwm-beer-review {
+        background-color: #0c2b95 !important;
+        width: 100%;
+    }
+
+    #color_sample {
+        margin: auto;
+        /* left: 10%; */
+        position: relative;
+        padding: 0;
+        width: 50px;
+        border-radius: 90px;
+        margin-top: 4px;
+        margin-bottom: 34px;
+        height: 50px;
+        /* float: left; */
+        left: calc(50% - 25px);
+    }
+
+    .row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .row .text-right,
+    .row .text-left {
+        display: none;
+    }
+
+    .row div {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: .7em;
+    }
+
+    .row input[type="submit"] {
+        background-color: #efeee1;
+        border: none;
+        color: #0e162a;
+        font-family: "Libre-Bas";
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: .7em;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 20px;
+    }
+
+    .ui-slider {
+        margin: 0 !important;
+        height: 20px !important;
+    }
+
+    .ui-slider-track {
+        position: relative;
+        overflow: visible;
+        height: 3px !important;
+        border: none !important;
+        background-color: #0e162a !important;
+        border-radius: 20px !important;
+        top: 6px;
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    label.ui-btn {
+        background-color: transparent !important;
+        color: rgba(239, 238, 225, .19)!important;
+        text-shadow: none !important;
+        text-transform: capitalize;
+        font-weight: 100 !important;
+        border: none;
+    }
+
+    .ui-widget-content {
+        border: none;
+        background: #0e162a;
+        color: #efeee1;
+    }
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default {
+        border: none;
+        background: #0e162a;
+        font-weight: normal;
+        color: #fff;
+    }
+
+    .ui-page-theme-a,
+    .ui-page-theme-a .ui-panel-wrapper {
+        text-shadow: none !important;
+    }
+
+    input.ui-slider-input {
+        display: none !important;
+    }
+
+    .ui-slider-handle {
+        background-color: #0e162a !important;
+        width: 13px !important;
+        height: 13px !important;
+        border: none !important;
+        margin-bottom: 0 !important;
+        margin-top: -6px !important;
+        line-height: normal !important;
+        border-radius: 40px !important;
+    }
+
+    .ui-checkbox {
+        padding-right: 1.3em;
+        padding-bottom: 1em;
+    }
+
+    .ui-checkbox .ui-btn {
+        border-radius: 300px !important;
+        border: none !important;
+        color: #efeeee !important;
+        background-color: #0E162A !important;
+        font-size: 1.3em;
+    }
+
+    .nwm-beer-review-show {
+        opacity: 1 !important;
+    }
+
+    #aromas_more,
+    #sabores_more {
+        opacity: .3;
+    }
+
+    .ui-checkbox .ui-btn label {
+        border: none !important;
+    }
+
+    .nwm-beer-review-aromas-button div,
+    .nwm-beer-review-sabores-button div {
+        width: 30px !important;
+        height: 30px !important;
+        padding-left: 6px;
+        border-radius: 80px !important;
+        line-height: 5px;
+        text-align: center;
+        margin-bottom: 19px;
+        background-color: transparent !important;
+    }
+
+    .nwm-login-marco {
+        border: 1px solid #0c1120;
+    }
+
+    p.logged-in-as {
+        color: #efeee1;
+    }
+
+    .nwm-login-texto-inscribe {
+        color: #0c1120;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        font-size: 60%;
+        width: 40%;
+        letter-spacing: 4px;
+        line-height: 1.7em;
+        padding-top: 40px;
+        margin: 0;
+    }
+
+    .nwm-login-texto-cata {
+        color: #0c1120;
+        font-family: 'Libre Baskerville', serif !important;
+        text-transform: uppercase;
+        font-size: 41%;
+        width: 40%;
+        letter-spacing: 4px;
+        line-height: 2.3em;
+    }
+
+    #nwm-loginform {
+        margin-top: 35px;
+    }
+
+    hr.nwm-login-barra {
+        margin: 0;
+        border: none;
+        border-top: 1.5px solid #0C2B95;
+        width: 30px;
+        margin: auto;
+    }
+
+    .nwm-login-username {
+        margin-top: -20px;
+    }
+
+    .nwm-login-username,
+    .nwm-login-password {
+        width: 300px;
+        margin-left: calc(50% - 150px) !important;
+        height: 53px;
+        border: none !important;
+    }
+
+    .nwm-login-username label,
+    .nwm-login-password label {
+        display: none;
+    }
+
+    button.close {
+        color: blue;
+        opacity: 1;
+        font-weight: 100;
+        text-shadow: none !important;
+        padding: 10px;
+    }
+
+    .row.nwm-login-submit input {
+        background-color: #0E162A;
+        width: 300px;
+        height: 43px;
+        margin-left: calc(50% - 150px) !important;
+        margin: 0;
+        color: #efeee1;
+        font-size: .6em;
+        letter-spacing: .6em;
+    }
+
+    .nwm-login-fb-button,
+    .nwm-login-tw-button {
+        background: #1414ed;
+        width: 300px;
+        margin-left: calc(50% - 150px) !important;
+        border: none;
+        color: #efeee1;
+        font-size: .6em;
+        letter-spacing: .6em;
+        margin-top: 10px;
+        height: 43px;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .nwm-login-fb-button {
+        margin-bottom: 40px;
+    }
+
+    .row.nwm-beer-review-cata-button div {
+        width: 300px;
+        border-radius: 0px;
+        border: none;
+        background-color: #efeee1;
+        margin-left: calc(50% - 150px);
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .nwm-login-username label {
+        display: none;
+    }
+
+    .nwm-beerlist-faq {
+        position: fixed;
+        bottom: 2vh;
+        right: 1vw;
+        z-index: 9999;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        color: #efeee1 !important;
+        line-height: 1.7em;
+        background-color: #1414ed;
+        font-size: 120%;
+    }
+
+    .nwm-beerlist-faq {
+        font-weight: bolder;
+    }
+
+    .nwm-beerlist-instrucciones ol li {
+        color: #0c2b95;
+    }
+
+    .nwm-my-button {
+        background-color: #0E162A;
+        color: #efeee1;
+    }
+
+    form#review-form * {
+        font-size: 90%;
+    }
+
+    h2.tambien {
+        background-color: #0c2b95;
+        width: 300px;
+        margin: auto;
+        margin-top: 110px;
+        text-align: center;
+        height: 50px;
+        line-height: 50px !important;
+        color: #efeee1;
+    }
+
+    .prev::before {
+        color: #1414ed !important;
+    }
+
+    .next::before {
+        color: #1414ed !important;
+    }
+
+    .rate-container {
+        margin-bottom: 0.5em;
+    }
+
+    .rate {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    .chk {
+        background-color: #0000ff !important;
+    }
+
+    .unchk {
+        background-color: #999999 !important;
+    }

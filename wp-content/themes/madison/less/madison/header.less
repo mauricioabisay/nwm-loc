@@ -1,0 +1,96 @@
+@import "variables.less";
+
+
+.site-header {    
+    background-color: @white-lighter;
+    z-index: 2;
+    position: relative;
+    &.scrolled {
+        padding-top: @menu-height;
+        .header-main {  
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            .site-title {
+                img {
+                    .vendor(transition, all 0.5s ease-out);
+                    /*max-width: 110px;*/
+                }
+            }
+        }
+    }
+    .header-main {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+        box-sizing: border-box;        
+        background-color: @white-lighter;        
+        &.fs {
+            background-color: @white-transparent;
+            nav.primary-navigation > div > ul > li > a {
+                color: @black;
+            }
+        }
+        .site-title {
+            line-height: @menu-height;
+            vertical-align: middle;
+            img {
+                .vendor(transition, all 0.5s ease-out);
+                max-width: 150px;
+            }
+        }
+        .custom-header {
+            display: none;
+            float: right;            
+            margin-right: @menu-item-h-padding;
+            > ul {
+                /*border-left: 1px solid @black;*/
+                text-align: center;
+                padding: 0 0 0 13px;
+                li {
+                    display: inline-block;
+                    height: @menu-height;
+                    a {     
+                        line-height: @menu-height;
+                        .fa {
+                            line-height: @menu-height;
+                            vertical-align: middle;                                                        
+                            font-size: @font-size-base;
+                            margin: 0 10px;                            
+                        }                        
+                    }
+                    &:last-child a .fa {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .site-header {
+        padding-top: 0;
+        &.scrolled {
+            padding-top: 0;
+        }
+        .header-main {
+            top: 0!important;
+            margin-top: 0!important;
+            display: block;
+            position: relative!important;
+            left: 0!important;
+            &.fs {
+                background-color: @white-lighter;
+            }
+            .custom-header {
+                margin-right: 0;
+                > ul {
+                    border-left: none;
+                }
+            }
+        }
+    }          
+}

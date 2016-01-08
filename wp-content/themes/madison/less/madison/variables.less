@@ -1,0 +1,52 @@
+//@brand-color:            #efa48d;
+@red:           #FA0000;
+@blue:           #0AA2FF;
+
+
+@white-darker:            #ededed;
+@white-dark:              #f0f0f0;
+@white:                   #f5f5f5;
+@white-light:             #f8f8f8;
+@white-lighter:           #fff;
+@white-transparent:       rgba(255,255,255,0.9);
+
+
+@gray-darker:            #999;
+@gray-dark:              #aaa;
+@gray:                   #bbb;
+@gray-light:             #ccc;
+@gray-lighter:           #ddd;
+
+
+@black-darker:            #000;
+@black-dark:              #111;
+@black:                   #444;
+@black-light:             #666;
+@black-lighter:           #888;
+
+
+@font-size-small:         14px;
+@font-size-base:          16px;
+@font-size-large:         21px;
+
+/*@font-size-h1:            32px;
+@font-size-h2:            32px;
+@font-size-h3:            16px;
+@font-size-h4:            14px;
+@font-size-h5:            13px;
+@font-size-h6:            11px;*/
+
+
+@menu-height:   78px;
+@menu-item-v-padding:   13px;
+@menu-item-h-padding: 18px;
+
+.property_(@property, @value) {
+    _: ~"; @{property}:" @value;
+}
+.vendor(@property, @value) {
+    .property_('-webkit-@{property}', @value);
+    .property_( '-khtml-@{property}', @value);
+    .property_(   '-moz-@{property}', @value);
+    .property_(          @property,   @value);
+}

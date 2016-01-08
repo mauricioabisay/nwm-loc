@@ -1,0 +1,228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"plugin",
+				"plugin_admin"
+			],
+			[
+				"beer",
+				"beer_type_args"
+			],
+			[
+				"plug",
+				"plugin_admin"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"Admin",
+				"Admin_Controller"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"categories",
+				"categories_model"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: htmlboiler"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/plugin-name.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/index.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/languages/plugin-name.pot",
+		"/C/Users/Sahid/Desktop/form_texto.html",
+		"/C/Users/Sahid/Desktop/taller1.html",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/partials/meta-box-review.html.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/class-plugin-name-admin.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/includes/class-plugin-name.php",
+		"/C/Users/Sahid/.ssh/known_hosts",
+		"/C/Users/Sahid/Desktop/mailServerConfig.txt",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/WhatsApp/Databases/msgstore.db.crypt8",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/template/single-beer.php",
+		"/C/Users/Sahid/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/includes/class-plugin-name-loader.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/themes/twentyfifteen/single.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/single-beer.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/themes/index.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/includes/class-plugin-name-activator.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/admin-controller.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/woocommerce.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product/price.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product/product-attributes.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-install.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-product-factory.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/admin/views/html-bulk-edit-product.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/partials/categories_add.html.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/partials/categories.html.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/models/categories-model.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/product-catalog/admin/catalogs_func.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/product-catalog/product-catalog.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/admin-model.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/product-catalog/readme.txt",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/product-catalog/Front_end/catalog_front_end_func.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/product-catalog/Front_end/catalog_front_end_view.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-config.php",
+		"/C/Bitnami/rubystack-2.0.0-29/apache2/htdocs/wordpress/wp-content/plugins/plugin-name/admin/partials/main.html.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<FORM",
+			"menu",
+			"<textarea",
+			"<form",
+			"function catalogs_huge_it_catalog",
+			"load_plugin_textdomain",
+			"\"price-block",
+			"style=\"display:none\"",
+			"\"price-block",
+			"\"rating-block",
+			"\"price-block",
+			"\"old-price",
+			"require"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"include"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,93 @@
+@import "variables.less";
+
+.azexo {
+    .esg-grid {
+        &::after {
+            content:"";
+            display:table;
+            clear:both;        
+        }
+    }
+    .esg-filters {
+        float: left;
+        width: 20%;
+        .esg-filter-wrapper {
+            margin: 0 !important;
+            text-align: left;
+            display: block;
+            .esg-filterbutton,
+            .esg-navigationbutton,
+            .esg-sortbutton,
+            .esg-cartbutton {	
+                display: block;
+                color: @black-light;
+                cursor:pointer;
+                position: relative;
+                border:none;
+                line-height: 1;
+                font-size: @font-size-base;
+                font-weight: 300;
+                text-transform: uppercase;
+                padding: 10px 0px;
+                &:hover, &.selected {
+                    color: @gray;
+                    span {
+                        border-bottom: 1px solid;
+                    }                    
+                }
+                &:first-child {
+                    padding-top: 0px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+    .esg-clear-no-height {
+        clear: none;
+    }
+    .esg-overflowtrick {
+        float: left;
+        width: 80% !important;        
+    }
+    .esg-loadmore {
+        float: left;
+        display: block;
+        color: @black-light;
+        cursor:pointer;
+        position: relative;
+        border:none;
+        line-height: 1;
+        font-size: @font-size-base;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding: 10px 0px;
+        &:hover, &.selected {
+            color: @gray;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .azexo {
+        .esg-filters {
+            float: none;
+            width: 100%;
+            .esg-filter-wrapper {
+                .esg-filterbutton,
+                .esg-navigationbutton,
+                .esg-sortbutton,
+                .esg-cartbutton {	
+                    display: inline-block;
+                    padding: 20px 10px;
+                    &:first-child {
+                        padding-left: 0px;
+                    }                    
+                }
+            }
+        }
+        .esg-overflowtrick {
+            float: none;
+            width: 100% !important;        
+        }
+    }
+}

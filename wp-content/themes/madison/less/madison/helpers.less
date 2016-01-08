@@ -1,0 +1,144 @@
+@import "variables.less";
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.horizontal-list-2 {
+    margin:  0 -15px;
+    > * {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding: 0 15px;
+    }
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.horizontal-list-3 {
+    margin:  0 -15px;
+    > * {
+        box-sizing: border-box;
+        float: left;
+        width: 33.33333%;
+        padding: 0 15px;
+    }
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.horizontal-list-4 {
+    margin:  0 -15px;
+    > * {
+        box-sizing: border-box;
+        float: left;
+        width: 25%;
+        padding: 0 15px;
+    }
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.not-ransition {
+    .vendor(transition, none !important);
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.h-padding-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.h-margin-30 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.h-margin-15 {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+.h-padding-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.h-padding-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.v-align-children {
+    .vendor(display, flex);
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.border-top-1 {
+    border-top: 1px solid;
+}
+
+.headers-height-1 {
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1;
+    }
+}
+
+.paragraphs-height-1 {
+    p {
+        line-height: 1;
+    }
+}
+
+.pull-right {
+    float: right;
+}
+
+.background-center-right {
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 768px) {
+    .text-align-center-max-width-768 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .horizontal-list-4, .horizontal-list-3, .horizontal-list-2 {
+        display: block;
+        margin:  0;
+        > * {
+            float: none;
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
